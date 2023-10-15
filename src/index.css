@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: rgb(226, 255, 245);
+}
+
+@layer base{
+    button{
+        @apply bg-teal-600 p-3 rounded-lg text-white hover:bg-teal-800
+    }
+}
